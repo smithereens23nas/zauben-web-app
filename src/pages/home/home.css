@@ -1,0 +1,111 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+.card {
+  height: 10rem;
+  border: 1px solid gray;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* outline: red solid 3px;  */
+}
+
+.bg-img-1 {
+  background-image: url("../../../public/assets/Model-Z.jpg");
+}
+
+.bg-img-2 {
+  background-image: url(../../../public/assets/Green-Roof-System.jpg);
+}
+
+.bg-img-3 {
+  background-image: url(https://mlpnk72yciwc.i.optimole.com/cqhiHLc.WqA8~2eefa/w:auto/h:auto/q:75/https://bleedingcool.com/wp-content/uploads/2021/06/Pikachu-color-model-publicity-cel.jpg);
+}
+
+h3 {
+  margin-left: 32rem;
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+  margin-top: 7rem;
+}
+
+html {
+  background-color: rgb(234, 231, 231);
+}
+
+p {
+  background-color: whitesmoke;
+  width: 100%;
+  border-radius: 30px;
+  font-size: 0.8rem;
+  /* outline: red solid 1px; */
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.p-style {
+  background-color: whitesmoke;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  height: 35%;
+  /* outline: red solid 2px; */
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* outline: red solid 3px; */
+  height: 525px;
+  width: 45rem;
+  margin-left: 30rem;
+  grid-gap: 30px;
+  outline: red solid 2px;
+}
+
+/* ======================== MEDIA QUERIES (MEDIUM DEVICES) ======================== */
+
+@media screen and (max-width: 1024px) {
+}
+
+/* ======================== MEDIA QUERIES (SMALL DEVICES) ======================== */
+
+@media screen and (max-width: 600px) {
+  .container {
+    grid-template-columns: 50%;
+    margin: 0 auto;
+    outline: red solid 3px;
+    /* grid-auto-columns: 100px; */
+    width: 100%;
+    justify-content: center;
+  }
+
+  .bg-img {
+    /* display: flex;
+      margin: 0 auto; */
+    /* justify-content: center; */
+  }
+
+  h3 {
+    margin-left: 2rem;
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
+    margin-top: 7rem;
+  }
+}
+
+html {
+  overflow-x: hidden;
+}

@@ -1,0 +1,62 @@
+.side-menu-position {
+  height: 100%; /* 100% Full-height */
+  width: 250px; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 10rem;
+  /* background-color: orange; Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 250px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  /* display: flex; */
+  /* align-items: center; */
+}
+
+li {
+  font-size: 1.3rem;
+  line-height: 5rem;
+}
+
+.menu-spacing {
+  margin-left: 1.5rem;
+}
+
+.icon {
+  /* outline: red solid 2px; */
+  /* margin-top: 3rem; */
+  font-size: 1.8rem;
+}
+
+.hover-effect{
+  box-shadow: inset 0 0 0 0 black;
+  color: black;
+
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.hover-effect:hover {
+  color: #fff;
+  box-shadow: inset 200px 0 0 0 black;
+  padding: 0 10px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+/* ======================== MEDIA QUERIES (MEDIUM DEVICES) ======================== */
+
+@media screen and (max-width: 1024px) {
+  .side-menu-position {
+    display: none;
+  }
+}
+
+/* ======================== MEDIA QUERIES (SMALL DEVICES) ======================== */
+
+@media screen and (max-width: 600px) {
+  .side-menu-position {
+    display: none;
+  }
+}

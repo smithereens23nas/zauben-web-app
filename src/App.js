@@ -1,7 +1,8 @@
 import './App.css';
 import { Route, Routes } from "react-router-dom";
 import Nav from './components/nav/Nav';
-import Home from './components/home/Home';
+import Home from './pages/home/Home';
+import SideMenu from './components/SideMenu/SideMenu';
 
 function App() {
   const URL = "http://localhost:3002/";
