@@ -8,33 +8,32 @@ const Home = () => {
       <SideMenu />
       <h3>Dashboard</h3>
       <div className="container">
-        <div>
-          <div className="card bg-img-1">
+        <div className="card">
+          <div className="card-img bg-img-1">
           </div>
           <div className="p-style">
-            <h5>Order Tesla Solar</h5>
-            <p>Produce energy to power your tesla life</p>
-            <a href="#">View Solar</a>
+            <h5>Order Model Z</h5>
+            <p>Designed for
+healthier living</p>
+            <a className="link-decoration" href="#">View Solar</a>
           </div>
         </div>
-        <div>
-          <div className="card bg-img-2">
-            <img src="public/assets/Zauben Black Logo.jpg" alt="" />
+        <div className="card">
+          <div className="card-img bg-img-2">
           </div>
           <div className="p-style">
             <h5>Reserve a Car</h5>
             <p>Browse our models</p>
-            <a href="#">Shop Now</a>
+            <a className="link-decoration" href="#">Shop Now</a>
           </div>
         </div>
-        <div>
-          <div className="card bg-img-3">
-            <img src="public/assets/Zauben Black Logo.jpg" alt="" />
+        <div className="card">
+          <div className="card-img bg-img-3">
           </div>
           <div className="p-style">
             <h5>Purchased a car from a third party?</h5>
             <p>This is paragraph 3.</p>
-            <a href="#">Add</a>
+            <a className="link-decoration" href="#">Add</a>
           </div>
         </div>
       </div>

@@ -5,14 +5,18 @@
 }
 
 .card {
+    /* outline: purple solid 10px; */
+    border: 2px solid #d0d1d2;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.card-img {
   height: 10rem;
-  border: 1px solid gray;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* outline: red solid 3px;  */
+  /* outline: blue solid 3px;  */
 }
 
 .bg-img-1 {
@@ -24,7 +28,11 @@
 }
 
 .bg-img-3 {
-  background-image: url(https://mlpnk72yciwc.i.optimole.com/cqhiHLc.WqA8~2eefa/w:auto/h:auto/q:75/https://bleedingcool.com/wp-content/uploads/2021/06/Pikachu-color-model-publicity-cel.jpg);
+  background-image: url(../../../public/assets/Living-Walls-Outdoor.jpg);
+}
+
+.link-decoration {
+    text-decoration: underline;
 }
 
 h3 {
@@ -35,13 +43,12 @@ h3 {
 }
 
 html {
-  background-color: rgb(234, 231, 231);
+  background-color: rgb(244, 242, 242);
 }
 
 p {
   background-color: whitesmoke;
   width: 100%;
-  border-radius: 30px;
   font-size: 0.8rem;
   /* outline: red solid 1px; */
 }
@@ -57,8 +64,6 @@ a {
   display: flex;
   flex-direction: column;
   text-align: center;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
   height: 35%;
   /* outline: red solid 2px; */
   justify-content: center;
@@ -72,7 +77,7 @@ a {
   width: 45rem;
   margin-left: 30rem;
   grid-gap: 30px;
-  outline: red solid 2px;
+  /* outline: red solid 2px; */
 }
 
 /* ======================== MEDIA QUERIES (MEDIUM DEVICES) ======================== */
@@ -90,12 +95,6 @@ a {
     /* grid-auto-columns: 100px; */
     width: 100%;
     justify-content: center;
-  }
-
-  .bg-img {
-    /* display: flex;
-      margin: 0 auto; */
-    /* justify-content: center; */
   }
 
   h3 {
