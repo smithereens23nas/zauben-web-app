@@ -1,22 +1,25 @@
 nav {
-    background: black;
-    width: 100vw;
+  width: 100vw;
 }
 
 .nav-spacing {
-    height: 50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    /* outline: red solid 2px; */
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* outline: red solid 2px; */
 }
 
 nav a {
-    color: whitesmoke;
-    text-decoration: none;
+  color: whitesmoke;
+  text-decoration: none;
 }
 
 .logo {
-    font-weight: bold;
-    font-size: 1.2rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+  width: 100vw;
+  margin-left: 5rem;
+  margin-top: 1rem;
 }

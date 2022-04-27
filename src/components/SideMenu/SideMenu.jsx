@@ -10,7 +10,7 @@ const SideMenu = () => {
     <div >
       <aside className="side-menu-position">
         <ul>
-          <li> <AiOutlineHome className="icon-hover" /> <a className="menu-spacing hover-effect" href="#">Dashboard</a></li>
+          <li> <AiOutlineHome className="icon-hover" /> <a className="menu-spacing hover-effect" href="/home">Dashboard</a></li>
           <li> <BsPerson className="icon-hover" /> <a className="menu-spacing hover-effect" href="#">Profile Settings</a></li>
           <li> <MdOutlinePayment className="icon-hover" /> <a className="menu-spacing hover-effect" href="#">Payment Method</a></li>
           <li> <RiTreasureMapLine className="icon-hover" /> <a className="menu-spacing hover-effect" href="#">Loot Box</a></li>
