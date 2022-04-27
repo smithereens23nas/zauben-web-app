@@ -47,7 +47,7 @@ const Metrics = () => {
               point:{
                   radius: 0
               }
-          },
+          }, 
           legend: {
             display: true,
             position: "right",
