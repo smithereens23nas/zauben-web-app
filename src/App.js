@@ -21,7 +21,7 @@ import {
 
 function App() {
   // const URL = "http://localhost:3002/";
-  const URL = "https://regal-hamster-cbd3ef.netlify.app";
+  const URL = "https://regal-hamster-cbd3ef.netlify.app/";
   Chart.register(
     ArcElement,
     CategoryScale,
