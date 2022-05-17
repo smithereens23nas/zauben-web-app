@@ -16,7 +16,8 @@ const plants = () => {
               Model Z
             </h5>
             <p>Lounge Area</p>
-            <a className="link-decoration" href="/performance">
+            <a className="link-decoration" href="/metricsDashboard
+            ">
               View Performance
             </a>
           </div>
@@ -28,7 +29,8 @@ const plants = () => {
               Model Z
             </h5>
             <p>Lounge Area</p>
-            <a className="link-decoration" href="/performance">
+            <a className="link-decoration" href="/metricsDashboard
+            ">
               View Performance
             </a>
           </div>
