@@ -4,7 +4,7 @@ import "./nav.css"
 const Nav = () => {
   return (
     <nav className="nav-spacing">
-      <a className="logo" href="http://localhost:3002/home">Zauben</a>
+      <a className="logo" href="https://regal-hamster-cbd3ef.netlify.app/home">Zauben</a>
     </nav>
   );
 };
