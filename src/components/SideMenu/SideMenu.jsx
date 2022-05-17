@@ -14,7 +14,7 @@ const SideMenu = () => {
           <li> <BsPerson className="icon-hover" /> <a className="menu-spacing hover-effect" href="#">Profile Settings</a></li>
           <li> <MdOutlinePayment className="icon-hover" /> <a className="menu-spacing hover-effect" href="#">Payment Method</a></li>
           <li> <RiTreasureMapLine className="icon-hover" /> <a className="menu-spacing hover-effect" href="#">Loot Box</a></li>
-          <li> <AiOutlineHistory className="icon-hover" /> <a className="menu-spacing hover-effect" href="#">Service History</a></li>
+          <li> <AiOutlineHistory className="icon-hover" /> <a className="menu-spacing hover-effect" href="#">Service</a></li>
 
         </ul>
       </aside>
