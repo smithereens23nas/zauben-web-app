@@ -1,20 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "./SideMenu.css";
-import {AiOutlineHome, AiOutlineHistory} from "react-icons/ai"
-import {BsPerson} from "react-icons/bs"
-import {MdOutlinePayment} from "react-icons/md"
-import {RiTreasureMapLine} from "react-icons/ri"
+import {AiOutlineHome} from "react-icons/ai"
+import {RiHeartPulseLine} from "react-icons/ri"
+import {VscTools} from "react-icons/vsc"
+import {IoSettingsOutline} from "react-icons/io5"
+import {GiElectric} from "react-icons/gi"
 
 const SideMenu = () => {
+
+const [activeNav, setActiveNav] = useState('#')
   return (
-    <div >
+    <div>
       <aside className="side-menu-position">
         <ul>
-          <li> <AiOutlineHome className="icon-hover" /> <a className="menu-spacing hover-effect" href="/home">Dashboard</a></li>
-          <li> <BsPerson className="icon-hover" /> <a className="menu-spacing hover-effect" href="#">Profile Settings</a></li>
-          <li> <MdOutlinePayment className="icon-hover" /> <a className="menu-spacing hover-effect" href="#">Payment Method</a></li>
-          <li> <RiTreasureMapLine className="icon-hover" /> <a className="menu-spacing hover-effect" href="#">Loot Box</a></li>
-          <li> <AiOutlineHistory className="icon-hover" /> <a className="menu-spacing hover-effect" href="#">Service</a></li>
+          <li> <AiOutlineHome className="icon-hover" /> <a onClick={() => setActiveNav('#')} className="menu-spacing hover-effect" href="/home">Dashboard</a></li>
+          <li> <RiHeartPulseLine className="icon-hover" /><a href="#" className="menu-spacing hover-effect">Wellness</a></li>
+          <li> <GiElectric className="icon-hover" /> <a href="#" className="menu-spacing hover-effect">ESG & Energy</a></li>
+          <li> <IoSettingsOutline className="icon-hover" /> <a className="menu-spacing hover-effect" href="#">Settings</a></li>
+          <li> <VscTools className="icon-hover" /> <a className="menu-spacing hover-effect" href="#">Support</a></li>
 
         </ul>
       </aside>

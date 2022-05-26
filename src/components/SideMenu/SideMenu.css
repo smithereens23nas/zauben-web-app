@@ -5,7 +5,6 @@
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 10rem;
-  /* background-color: orange; Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 250px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -14,7 +13,7 @@
 }
 
 li {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   line-height: 5rem;
 }
 
@@ -37,8 +36,44 @@ li {
 .hover-effect:hover {
   color: #fff;
   box-shadow: inset 200px 0 0 0 black;
-  padding: 0 10px;
+  padding: 0 15px;
+  /* padding-right: 100px; */
 }
+test {
+  background: rgba(0, 0, 0, 0.3);
+  width: max-content;
+  display: block;
+  padding: 0.7rem 1.7rem;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2rem;
+  display: flex;
+  gap: 0.8rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+}
+
+test a {
+  background: transparent;
+  padding: 0.9rem;
+  border-radius: 50%;
+  display: flex;
+  color: orange;
+  font-size: 1.1rem;
+}
+
+test a:hover{
+  background: rgba(0, 0, 0, 0.3);
+}
+
+test a.active {
+  background: purple;
+  color: cornflowerblue;
+}
+
+
 
 li {
   display: flex;

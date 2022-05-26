@@ -1,11 +1,13 @@
 .chart-bg {
-    background-color: black;
+    background-color: white;
     height: 60vh;
+    margin: 0 100px;
 }
 
 
+
 .metric-show-page-bg {
-    background-color: black;
+    background-color: yellow;
 }
 
   

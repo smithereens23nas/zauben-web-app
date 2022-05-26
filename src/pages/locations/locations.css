@@ -1,111 +1,112 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-  }
-  
-  .card {
-      /* outline: purple solid 10px; */
-      border: 2px solid #d0d1d2;
-      border-radius: 25px;
-      overflow: hidden;
-  }
-  
-  .card-img {
-    height: 10rem;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    /* outline: blue solid 3px;  */
-  }
-  
-  .location-img-1 {
-    background-image: url("../../../public/assets/mid-rise-office-building.jpeg");
-    /* outline: red solid 3px; */
-  }
-  
-  .location-img-2 {
-    background-image: url(../../../public/assets/Palisades-Office-Building-Commercial-Glass-glazing-services-Raleigh-NC-2.jpeg);
-    background-position: center;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
 
+.card {
+  /* outline: purple solid 10px; */
+  border: 2px solid #d0d1d2;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.card-img {
+  height: 10rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* outline: blue solid 3px;  */
+}
+
+.location-img-1 {
+  background-image: url("../../../public/assets/Park\ Habitat.jpg");
+  /* outline: red solid 3px; */
+}
+
+.location-img-2 {
+  background-image: url(../../../public/assets/The\ Orchard.jpeg);
+  background-position: center;
+}
+.location-img-3 {
+  background-image: url(../../../public/assets/Energy\ Hub\ \(1\).png);
+  background-position: center;
+}
+
+.link-decoration {
+  text-decoration: underline;
+}
+
+h3 {
+  margin-left: 32rem;
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+  margin-top: 7rem;
+}
+
+html {
+  background-color: rgb(244, 242, 242);
+}
+
+p {
+  background-color: whitesmoke;
+  width: 100%;
+  font-size: 0.8rem;
+  /* outline: red solid 1px; */
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.p-style {
+  background-color: whitesmoke;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 35%;
+  /* outline: red solid 2px; */
+  justify-content: center;
+  text-align: center;
+}
+
+.container-locations {
+  /* outline: red solid 2px; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* outline: red solid 3px; */
+  height: 5250px;
+  width: 45rem;
+  margin-left: 30rem;
+  grid-gap: 30px;
+}
+
+/* ======================== MEDIA QUERIES (MEDIUM DEVICES) ======================== */
+
+@media screen and (max-width: 1024px) {
+}
+
+/* ======================== MEDIA QUERIES (SMALL DEVICES) ======================== */
+
+@media screen and (max-width: 600px) {
+  .container {
+    grid-template-columns: 50%;
+    margin: 0 auto;
+    outline: red solid 3px;
+    /* grid-auto-columns: 100px; */
+    width: 100%;
+    justify-content: center;
   }
 
-  
-  .link-decoration {
-      text-decoration: underline;
-  }
-  
   h3 {
-    margin-left: 32rem;
+    margin-left: 2rem;
     font-size: 2.3rem;
     margin-bottom: 2rem;
     margin-top: 7rem;
   }
-  
-  html {
-    background-color: rgb(244, 242, 242);
-  }
-  
-  p {
-    background-color: whitesmoke;
-    width: 100%;
-    font-size: 0.8rem;
-    /* outline: red solid 1px; */
-  }
-  
-  a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  .p-style {
-    background-color: whitesmoke;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    height: 35%;
-    /* outline: red solid 2px; */
-    justify-content: center;
-    text-align: center;
-  }
-  
-  .container-locations {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* outline: red solid 3px; */
-    height: 250px;
-    width: 45rem;
-    margin-left: 30rem;
-    grid-gap: 30px;
-    /* outline: red solid 2px; */
-  }
-  
-  /* ======================== MEDIA QUERIES (MEDIUM DEVICES) ======================== */
-  
-  @media screen and (max-width: 1024px) {
-  }
-  
-  /* ======================== MEDIA QUERIES (SMALL DEVICES) ======================== */
-  
-  @media screen and (max-width: 600px) {
-    .container {
-      grid-template-columns: 50%;
-      margin: 0 auto;
-      outline: red solid 3px;
-      /* grid-auto-columns: 100px; */
-      width: 100%;
-      justify-content: center;
-    }
-  
-    h3 {
-      margin-left: 2rem;
-      font-size: 2.3rem;
-      margin-bottom: 2rem;
-      margin-top: 7rem;
-    }
-  }
-  
-  html {
-    overflow-x: hidden;
-  }
-  
+}
+
+html {
+  overflow-x: hidden;
+}

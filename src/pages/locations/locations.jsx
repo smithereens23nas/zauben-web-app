@@ -11,10 +11,11 @@ const locations = () => {
         <div className="card">
           <div className="card-img location-img-1"></div>
           <div className="p-style">
+            <h4>Park Habitat</h4>
             <h5 className="card-text-spacing">
-              409 Andover Drive West Palm Beach, FL 33404
+            35 South 2nd Street, San Jose, CA
             </h5>
-            <a className="link-decoration" href="#">
+            <a className="link-decoration" href="/metricsDashboard">
               View Living Walls
             </a>
           </div>
@@ -22,14 +23,29 @@ const locations = () => {
         <div className="card">
           <div className="card-img location-img-2"></div>
           <div className="p-style">
+            <h4>The Orchard</h4>
             <h5 className="card-text-spacing">
-              690 Glen Creek St. Forest Hills, NY 11375
+            
+280 Park Ave, San Jose, CA 95113
             </h5>
-            <a className="link-decoration" href="/livingwalls">
+            <a className="link-decoration" href="/metricsDashboard">
               View Living Walls
             </a>
           </div>
         </div>
+        <div className="card">
+          <div className="card-img location-img-3"></div>
+          <div className="p-style">
+            <h4>Energy Hub</h4>
+            <h5 className="card-text-spacing">
+            
+180 Park Ave, San Jose, CA 95113            </h5>
+            <a className="link-decoration" href="/metricsDashboard">
+              View Living Walls
+            </a>
+          </div>
+        </div>
+        
       </div>
     </div>
   );

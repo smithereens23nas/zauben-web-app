@@ -1,7 +1,7 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Nav from "./components/nav/Nav";
-import Home from "./pages/home/Home";
+import Home from "./components/home/Home";
 import Locations from "./pages/locations/locations";
 import SideMenu from "./components/SideMenu/SideMenu";
 import Metrics from "./pages/Metrics/metrics";
@@ -21,7 +21,7 @@ import {
 
 function App() {
   // const URL = "http://localhost:3002/";
-  const URL = "https://regal-hamster-cbd3ef.netlify.app/";
+  const URL = "https://zaubendashboard.netlify.app/";
   Chart.register(
     ArcElement,
     CategoryScale,
