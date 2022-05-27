@@ -4,6 +4,7 @@ import { Line } from "react-chartjs-2";
 import { Chart, Filler } from "chart.js";
 import { MdOutlineDateRange } from "react-icons/md";
 import { FiWind } from "react-icons/fi";
+import DateNav from "../../components/DateNav/DateNav";
 
 function chartData() {
     return {
@@ -83,6 +84,7 @@ function chartData() {
     render() {
       return (
         <div className="metric-show-page-bg">
+          <DateNav />
         <div className="container-progress-card">
             
 
@@ -107,6 +109,7 @@ function chartData() {
             width="500" height="175"/>
         </div>
         </div>
+        
       )
     }
   }

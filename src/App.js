@@ -7,7 +7,6 @@ import SideMenu from "./components/SideMenu/SideMenu";
 import Metrics from "./pages/Metrics/metrics";
 import Plants from "./pages/Plant-walls/plants"
 import MetricsMenu from "./pages/MetricsListMenu/MetricsListPage";
-import Calendar from "./components/calendar/Calendar"
 
 import {
   Chart,
@@ -38,7 +37,6 @@ function App() {
         <Route exact path="/locations" element={<Locations URL={URL} />} />
         <Route exact path="/performance" element={<Metrics URL={URL} />} />
         <Route exact path="/livingwalls" element={<Plants URL={URL} />} />
-        <Route exact path="/calendar" element={<Calendar URL={URL} />} />
         <Route exact path="/metricsDashboard" element={<MetricsMenu URL={URL} />} />
       </Routes>
     </div>
