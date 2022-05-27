@@ -4,7 +4,7 @@ import { Line } from "react-chartjs-2";
 function LineChart() {
   
   return (
-    <div className="chart-positioning">
+    <div className="chart-positioning"> 
  <Line
           const options = {
             responsive: true,
