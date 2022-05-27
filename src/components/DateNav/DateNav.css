@@ -1,42 +1,38 @@
 /* today, week, month, year buttons */
 .btn-container {
-    /* outline: blue solid 3px; */
-    display: flex;
-    justify-content: center;
-    color: white;
-
+  /* outline: blue solid 3px; */
+  display: flex;
+  justify-content: center;
+  color: white;
 }
 
 .date-btns {
-    display: flex;
-    justify-content: center;
-    border: #222222 1px solid;
-    background-color: #222222;
-    width: 350px;
-    border-radius: 4px;
-    margin: 20px;
-    color: white;
+  display: flex;
+  justify-content: center;
+  border: #222222 1px solid;
+  background-color: #222222;
+  width: 350px;
+  border-radius: 4px;
+  margin: 20px;
+  color: white;
 }
 
 button {
-
-border-radius: 4px;
-padding: 5px 15px;
-margin: 3px 0;
-font-size: 22px;
-color: white;
-background-color: #222222;
-
+  border-radius: 4px;
+  padding: 5px 15px;
+  margin: 3px 0;
+  font-size: 22px;
+  color: white;
+  background-color: #222222;
 }
 
 button a {
   color: white;
 }
 button.active {
-    background-color: #3b3b3b;
+  background-color: #3b3b3b;
 }
 
 .active-btn {
   background-color: #3b3b3b;
 }
-
