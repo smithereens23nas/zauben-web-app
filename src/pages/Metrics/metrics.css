@@ -1,13 +1,20 @@
 .chart-bg {
-    background-color: white;
+    background-color: black;
     height: 60vh;
     margin: 0 100px;
 }
 
+.metrics-description {
+    background-color: black;
+    color: white;
+
+    text-align: center;
+}
 
 
 .metric-show-page-bg {
-    background-color: yellow;
+    background-color: black;
+    height: 100vh;
 }
 
   
@@ -16,7 +23,6 @@
       justify-content: center;
       flex-direction: column;
       /* outline: red solid 2px; */
-      margin: 0 auto;
   }
   
   .container-progress-card .progress-card-item {
@@ -35,6 +41,10 @@
 
   .container-progress-card {
       padding: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
   }
   
 
