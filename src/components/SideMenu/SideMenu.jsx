@@ -15,7 +15,7 @@ const [activeNav, setActiveNav] = useState('#')
         <ul>
           <li> <AiOutlineHome className="icon-hover" /> <a onClick={() => setActiveNav('#')} className="menu-spacing hover-effect" href="/home">Dashboard</a></li>
           <li> <RiHeartPulseLine className="icon-hover" /><a href="#" className="menu-spacing hover-effect">Wellness</a></li>
-          <li> <GiElectric className="icon-hover" /> <a href="#" className="menu-spacing hover-effect">ESG & Energy</a></li>
+          <li> <GiElectric className="icon-hover" /> <a href="/energy" className="menu-spacing hover-effect">ESG & Energy</a></li>
           <li> <IoSettingsOutline className="icon-hover" /> <a className="menu-spacing hover-effect" href="#">Settings</a></li>
           <li> <VscTools className="icon-hover" /> <a className="menu-spacing hover-effect" href="#">Support</a></li>
 

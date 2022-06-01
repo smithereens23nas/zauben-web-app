@@ -1,12 +1,13 @@
 import React from 'react'
 import DateNav from '../../components/DateNav/DateNav'
+import "./Energy.css"
 
 
 const Energy = () => {
   return (
-      <div>
-    <div className='energy-title-container'><h2>ESG & Energy</h2></div>
+      <div className='energy-page-bg'>
     < DateNav />
+    <div className='energy-title-container'><h2>ESG & Energy</h2></div>
     <div className='energy-savings-container'>
       <div>  <h3>Energy Savings</h3></div>
       <div className='savings-items'>

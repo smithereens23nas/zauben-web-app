@@ -7,6 +7,7 @@ import SideMenu from "./components/SideMenu/SideMenu";
 import Metrics from "./pages/Metrics/metrics";
 import Plants from "./pages/Plant-walls/plants"
 import MetricsMenu from "./pages/MetricsListMenu/MetricsListPage";
+import Energy from "./pages/ESG & Energy/Energy"
 
 import {
   Chart,
@@ -38,6 +39,7 @@ function App() {
         <Route exact path="/performance" element={<Metrics URL={URL} />} />
         <Route exact path="/livingwalls" element={<Plants URL={URL} />} />
         <Route exact path="/metricsDashboard" element={<MetricsMenu URL={URL} />} />
+        <Route exact path="/energy" element={<Energy URL={URL} />} />
       </Routes>
     </div>
   );
