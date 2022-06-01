@@ -226,13 +226,4 @@
   font-size: 20px;
 }
 
-/* back arrow at top of the page */
-.back-arrow {
-  color: white;
-  position: absolute;
-  top: 46px;
-  left: 0;
-  font-size: 40px;
-  padding: 35px 0 0 50px;
-  /* outline: red solid 10px; */
-}
+
