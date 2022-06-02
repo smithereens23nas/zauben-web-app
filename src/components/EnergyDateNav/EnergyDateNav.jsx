@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../DateNav/DateNav.css";
+import "./EnergyDateNav.css"
 import { IoIosArrowBack } from "react-icons/io";
 
 
@@ -8,7 +9,7 @@ const EnergyDateNav = () => {
   return (
     <div className="btn-container">
       <a href="/metricsDashboard" className="back-arrow">< IoIosArrowBack/></a>
-      <div className="date-btns">
+      <div className="date-btns button-spacing">
         <button
           onClick={() => setActiveNav("#")}
           className={`nav-btn ${activeNav === "#" ? "active" : ""}`}

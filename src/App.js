@@ -8,6 +8,7 @@ import Metrics from "./pages/Metrics/metrics";
 import Plants from "./pages/Plant-walls/plants"
 import MetricsMenu from "./pages/MetricsListMenu/MetricsListPage";
 import Energy from "./pages/ESG & Energy/Energy"
+import { Bar } from 'react-chartjs-2';
 
 import {
   Chart,
@@ -17,6 +18,7 @@ import {
   PointElement,
   LineElement,
   Filler,
+  BarElement,
 } from "chart.js";
 
 function App() {
@@ -26,10 +28,12 @@ function App() {
     ArcElement,
     CategoryScale,
     LinearScale,
+    BarElement,
     PointElement,
     LineElement,
     Filler
   );
+  
   return (
     <div>
       <Nav />

@@ -15,6 +15,9 @@
   border-radius: 4px;
   margin: 20px;
   color: white;
+  /* outline: red solid 2px; */
+  display: flex;
+  justify-content: center;
 }
 
 .nav-btn {
