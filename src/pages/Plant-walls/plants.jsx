@@ -7,7 +7,7 @@ const plants = () => {
   return (
     <div className="bg-page">
       <SideMenu />
-      <h3>Locations</h3>
+      <h3 className='locations-title'>Locations</h3>
       <div className="container-locations">
         <div className="card">
           <div className="card-img plant-img-1"></div>

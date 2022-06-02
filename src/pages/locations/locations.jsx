@@ -6,7 +6,7 @@ const locations = () => {
   return (
     <div className="bg-page">
       <SideMenu />
-      <h3>Locations</h3>
+      <h3 className="locations-title">Locations</h3>
       <div className="container-locations">
         <div className="card">
           <div className="card-img location-img-1"></div>
@@ -15,7 +15,7 @@ const locations = () => {
             <h5 className="card-text-spacing">
             35 South 2nd Street, San Jose, CA
             </h5>
-            <a className="link-decoration" href="/metricsDashboard">
+            <a className="link-decoration" href="/livingwalls">
               View Living Walls
             </a>
           </div>
@@ -28,7 +28,7 @@ const locations = () => {
             
 280 Park Ave, San Jose, CA 95113
             </h5>
-            <a className="link-decoration" href="/metricsDashboard">
+            <a className="link-decoration" href="/livingwalls">
               View Living Walls
             </a>
           </div>
@@ -40,7 +40,7 @@ const locations = () => {
             <h5 className="card-text-spacing">
             
 180 Park Ave, San Jose, CA 95113            </h5>
-            <a className="link-decoration" href="/metricsDashboard">
+            <a className="link-decoration" href="/livingwalls">
               View Living Walls
             </a>
           </div>

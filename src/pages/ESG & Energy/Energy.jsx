@@ -8,7 +8,7 @@ const Energy = () => {
     <div className='energy-title-container'><h2>ESG & Energy</h2></div>
     < EnergyDateNav />
     <div className='energy-savings-container'>
-      <div>  <h3>Energy Savings</h3></div>
+      <div className='energy-title'>  <h3>Energy Savings</h3></div>
       <div className='savings-items'>
           <h4 className='energy-item'><span>75%</span>AC Savings</h4>
           <h4 className='energy-item'><span>25%</span>Heat Savings</h4>

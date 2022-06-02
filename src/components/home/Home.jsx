@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="bg-page">
       <SideMenu />
-      <h3>Dashboard</h3>
+      <h3 className="dashboard-title">Dashboard</h3>
       <div className="container">
         <div className="card">
           <div className="card-img bg-img-1">
