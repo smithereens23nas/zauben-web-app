@@ -58,9 +58,11 @@ const options = {
     },
     y: {
       ticks: {
+        
         color: "white",
         beginAtZero: true,
-      },
+            min: 0
+        },
     },
   },
   legendTemplate:
