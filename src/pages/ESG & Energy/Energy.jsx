@@ -3,6 +3,8 @@ import "./Energy.css";
 import EnergyDateNav from "../../components/EnergyDateNav/EnergyDateNav";
 import EnergyBarChart from "./EnergyBarChart";
 import { Bar } from "react-chartjs-2";
+import { GiCircleForest } from "react-icons/gi";
+import { FaSwimmer } from "react-icons/fa";
 
 function chartData() {
   return {
@@ -19,7 +21,7 @@ function chartData() {
         pointStrokeColor: "#fff",
         pointHighlightFill: "#fff",
         pointHighlightStroke: "rgba(220,220,220,1)",
-        data: [3.20, 5, 11.10, .40],
+        data: [3.2, 5, 11.1, 0.4],
         elements: {
           point: {
             radius: 0,
@@ -56,10 +58,10 @@ const options = {
       ticks: {
         color: "white",
         beginAtZero: true,
-                            // Include a dollar sign in the ticks
-                            callback: function(value, index, values) {
-                                return '$' + value.toFixed(decimals);
-                            }
+        // Include a dollar sign in the ticks
+        callback: function (value, index, values) {
+          return "$" + value.toFixed(decimals);
+        },
       },
     },
   },
@@ -71,7 +73,6 @@ const styles = {
   graphContainer: {
     padding: "25px",
     margin: "50px 200px 15px 200px",
-    
   },
 };
 
@@ -121,9 +122,34 @@ class Energy extends React.Component {
             />
           </div>
           <div className="price-container">
-              <h1 className="price">$19.70</h1>
-              <h5 className="sq-foot">Per Square Foot</h5>
+            <h1 className="price">$19.70</h1>
+            <h5 className="sq-foot">Per Square Foot</h5>
           </div>
+        </div>
+        <div className="energy-stats-section">
+          <h2 className="energy-stats">Carbon Offset</h2>
+          <div className="num-icon-container">
+            <h1 className="num-styles">10</h1>
+            <div className="icon-item"><GiCircleForest /></div>
+          </div>
+          <h4 className="despcription-savings-item">Acres of forest worth</h4>
+        </div>
+        <div className="energy-stats-section">
+          <h2 className="energy-stats">Biodiversity</h2>
+          <div className="num-icon-container">
+            <h1 className="num-styles">56,382</h1>
+          </div>
+          <h4 className="despcription-savings-item">Native Plants</h4>
+        </div>
+        
+        <div className="energy-stats-section">
+          <h2 className="energy-stats">Stormwater Retention</h2>
+          <div className="num-icon-container">
+            <h1 className="num-styles">281</h1>
+            <div className="icon-item swimming-icon"><FaSwimmer /></div>
+          </div>
+          
+          <h4 className="despcription-savings-item">Olympic Pools</h4>
         </div>
       </div>
     );

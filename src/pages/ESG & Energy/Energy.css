@@ -1,8 +1,10 @@
-.energy-page-bg {
+.energy-page-bg  {
   background-color: black;
-  height: 100vh;
+  min-height: 100%;
   color: white;
 }
+
+
 
 .energy-title-container {
   /* outline: red solid 1px; */
@@ -57,4 +59,50 @@
 
 .sq-foot {
   margin-bottom: 50px;
+}
+
+.energy-stats-section {
+    background-color: #1d1d1d;
+    margin: 100px 200px;
+    padding: 50px;
+}
+.num-icon-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0 20px 0;
+}
+
+.num-styles{
+    font-size: 50px;
+
+}
+
+/* icon size */
+.icon-item {
+    font-size: 50px;
+    padding-top:10px;
+    padding-left: 7px;
+    margin-left: 25px;
+   
+}
+
+.despcription-savings-item {
+    font-weight: 500;
+    font-size: 20px;
+}
+.swim-color{
+    color: red;
+    background-color: orange;
+    outline: red solid 3px;
+    z-index: 1000;
+    font-size: 100px;
+    
+    
+}
+
+.swimming-icon {
+    color: white;
+    transform: scaleX(-1);
+  
 }
