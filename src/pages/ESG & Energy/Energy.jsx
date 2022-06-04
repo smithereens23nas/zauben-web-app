@@ -149,7 +149,7 @@ class Energy extends React.Component {
             <div className="icon-item swimming-icon"><FaSwimmer /></div>
           </div>
           
-          <h4 className="despcription-savings-item">Olympic Pools</h4>
+          <h4 className="description-savings-item">Olympic Pools</h4>
         </div>
       </div>
     );
