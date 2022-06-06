@@ -84,10 +84,7 @@
   margin-left: 25px;
 }
 
-.description-savings-item {
-  font-weight: 500;
-  font-size: 20px;
-}
+
 
 .swim-color {
   color: red;
@@ -97,10 +94,28 @@
   font-size: 100px;
 }
 
+.urban-ecology-section {
+  background-color: #1d1d1d;
+  margin: 0px 200px;
+  padding: 50px 50px 0 50px;
+  /* outline: 2px solid pink; */
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+}
+
+.urban-ecology-text {
+/* outline: 2px solid orange; */
+width: 50%;
+}
+
 .para-styles {
-  
+  font-size: 20px;
 }
 
 .donut-legend {
   color: white;
+  margin-left: 400px;
+  margin-top: -100px;
+  /* outline: 2px solid red; */
 }

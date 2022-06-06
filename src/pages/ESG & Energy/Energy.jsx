@@ -2,7 +2,6 @@ import React from "react";
 import "./Energy.css";
 import DoughnutChart from "./DonutGraph";
 import EnergyDateNav from "../../components/EnergyDateNav/EnergyDateNav";
-import EnergyBarChart from "./EnergyBarChart";
 import { Bar, Doughnut } from "react-chartjs-2";
 import { GiCircleForest } from "react-icons/gi";
 import { FaSwimmer } from "react-icons/fa";
@@ -135,14 +134,14 @@ class Energy extends React.Component {
               <GiCircleForest />
             </div>
           </div>
-          <h4 className="despcription-savings-item">Acres of forest worth</h4>
+          <h4 className="description-savings-item">Acres of forest worth</h4>
         </div>
         <div className="energy-stats-section">
           <h2 className="energy-stats">Biodiversity</h2>
           <div className="num-icon-container">
             <h1 className="num-styles">56,382</h1>
           </div>
-          <h4 className="despcription-savings-item">Native Plants</h4>
+          <h4 className="description-savings-item">Native Plants</h4>
         </div>
 
         <div className="energy-stats-section">
@@ -156,14 +155,21 @@ class Energy extends React.Component {
 
           <h4 className="description-savings-item">Olympic Pools</h4>
         </div>
-        <div className="energy-stats-section">
-          <h2 className="energy-stats">Urban Ecology</h2>
-          <div className="num-icon-container">
-            <p className="para-styles">Westbank Campus hosts about 100 different plant species, including 15 species of trees, 45 shrubs and 34 types of perennials.</p>
-            <div className="donut-legend">
-            <DoughnutChart />
+        <div className="urban-ecology-section">
+          <div className="urban-ecology-text">
+            <h2 className="energy-stats">Urban Ecology</h2>
+            <div className="num-icon-container">
+              <p className="para-styles">
+                Westbank Campus hosts about 100 different plant species,
+                including 15 species of trees, 45 shrubs and 34 types of
+                perennials.
+              </p>
             </div>
-          </div>
+            </div>
+            <div className="donut-legend">
+              <DoughnutChart />
+            </div>
+          
         </div>
       </div>
     );
