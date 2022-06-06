@@ -20,6 +20,7 @@
 
 .savings-num {
   font-size: 32px;
+  color: white;
 }
 
 .energy-savings-container {
@@ -37,10 +38,14 @@
 
 }
 
+.savings-items h4{
+color: gainsboro;}
+
 .energy-title h3 {
   margin-left: 220px;
   margin-bottom: 25px;
   font-size: 30px;
+  
 }
 
 

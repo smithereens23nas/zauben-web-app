@@ -8,6 +8,7 @@ import Metrics from "./pages/Metrics/metrics";
 import Plants from "./pages/Plant-walls/plants"
 import MetricsMenu from "./pages/MetricsListMenu/MetricsListPage";
 import Energy from "./pages/ESG & Energy/Energy"
+import Wellness from "./pages/Wellness/Wellness";
 import { Bar } from 'react-chartjs-2';
 
 import {
@@ -44,6 +45,7 @@ function App() {
         <Route exact path="/livingwalls" element={<Plants URL={URL} />} />
         <Route exact path="/metricsDashboard" element={<MetricsMenu URL={URL} />} />
         <Route exact path="/energy" element={<Energy URL={URL} />} />
+        <Route exact path="/wellness" element={<Wellness URL={URL} />} />
       </Routes>
     </div>
   );
