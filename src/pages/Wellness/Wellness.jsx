@@ -1,6 +1,8 @@
 import React from "react";
+import "./Wellness.css"
 import WellnessDateNav from "../../components/WellnessDateNav/WellnessDateNav"
 import { Bar } from "react-chartjs-2";
+import { FiWind } from "react-icons/fi";
 
 function chartData() {
     return {
@@ -14,8 +16,11 @@ function chartData() {
             'rgba(254,255,0,255)',
             'rgba(153,0,255,255)',
              ],
-          hoverBackgroundColor: "rgba(77,220,139,255)",
-          strokeColor: "rgba(220,220,220,1)",
+             hoverBackgroundColor: ['rgba(77,220,139,255)',
+             'rgba(1,180,205,255)',
+             'rgba(254,255,0,255)',
+             'rgba(153,0,255,255)',
+              ],          strokeColor: "rgba(220,220,220,1)",
           pointColor: "rgba(220,220,220,1)",
           borderColor: "rgb(27, 132, 204)",
           pointStrokeColor: "#fff",
@@ -121,7 +126,7 @@ render(){
           </div>
         </div>
         <div className="est-savings-container">
-          <h3 className="est-title">Estimated Savings</h3>
+          <h3 className="est-title">Wellness Surveys</h3>
           <div style={styles.graphContainer}>
             <Bar
               data={this.state.data}
@@ -132,8 +137,41 @@ render(){
           </div>
           
         </div>
+        <div className="urban-ecology-section">
+          <div className="urban-ecology-text">
+            <h2 className="energy-stats">Indoor Air Quality</h2>
+            <div className="num-icon-container">
+              <p className="para-styles">
+                Indoor air quality within and arouond buildings and structures. IAQ is known to affect the health, comfort, and well-being of building occupants.
+              </p>
+            </div>
+            </div>
+            <div class="progress-card air-quality-metric">
+          <div class="box">
+            <div className="percent">
+              <svg className="metric-svg">
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="72" cy="72" r="70"></circle>
+              </svg>
+              <div className="number">
+                <h2>
+                  86<span>%</span>
+                </h2>
+
+                <FiWind className="icon-style" />
+              </div>
+            </div>
+            <div>
+              <h2><a className="text" href="/performance">Indoor Air Quality</a></h2>
+            </div>
+          </div>
+
+            </div>
+          
+        </div>
         </div>
   );
 }};
 
 export default Wellness;
+
