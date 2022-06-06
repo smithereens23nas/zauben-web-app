@@ -3,15 +3,16 @@ import "./Energy.css";
 import DoughnutChart from "./DonutGraph";
 import EnergyDateNav from "../../components/EnergyDateNav/EnergyDateNav";
 import { Bar, Doughnut } from "react-chartjs-2";
-import { GiCircleForest } from "react-icons/gi";
+import { GiCircleForest, GiPlantRoots } from "react-icons/gi";
 import { FaSwimmer } from "react-icons/fa";
+
 
 function chartData() {
   return {
     labels: ["Energy Savings", "Winter Savings", "AC Savings", "Gas"],
     datasets: [
       {
-        label: "My First dataset",
+        
         fill: true,
         backgroundColor: "rgba(77,220,139,255)",
         hoverBackgroundColor: "rgba(77,220,139,255)",
@@ -33,6 +34,11 @@ function chartData() {
 }
 const decimals = 0;
 const options = {
+    plugins: {
+        legend: {
+           display: false
+        }
+    },
   scaleShowGridLines: true,
   scaleGridLineColor: "rgba(0,0,0,.05)",
   scaleGridLineWidth: 1,
@@ -72,7 +78,7 @@ const options = {
 const styles = {
   graphContainer: {
     padding: "25px",
-    margin: "50px 200px 15px 200px",
+    margin: "50px 100px 15px 100px",
   },
 };
 
@@ -93,21 +99,20 @@ class Energy extends React.Component {
         <EnergyDateNav />
         <div className="energy-savings-container">
           <div className="energy-title">
-            {" "}
             <h3>Energy Savings</h3>
           </div>
           <div className="savings-items">
             <h4 className="energy-item">
-              <span>75%</span>AC Savings
+              <span className="savings-num">75%</span>AC Savings
             </h4>
             <h4 className="energy-item">
-              <span>25%</span>Heat Savings
+              <span className="savings-num">25%</span>Heat Savings
             </h4>
             <h4 className="energy-item">
-              <span>11%</span>Gas Savings
+              <span className="savings-num">11%</span>Gas Savings
             </h4>
             <h4 className="energy-item">
-              <span>2%</span>Electric Savings
+              <span className="savings-num">2%</span>Electric Savings
             </h4>
           </div>
         </div>
@@ -140,7 +145,12 @@ class Energy extends React.Component {
           <h2 className="energy-stats">Biodiversity</h2>
           <div className="num-icon-container">
             <h1 className="num-styles">56,382</h1>
+       
+            <div className="icon-item swimming-icon">
+              <GiPlantRoots />
+            </div>
           </div>
+
           <h4 className="description-savings-item">Native Plants</h4>
         </div>
 

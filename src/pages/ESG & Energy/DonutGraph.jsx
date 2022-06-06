@@ -28,13 +28,13 @@ const data = {
     datasets: [
         {
             label: 'Attendance for Week 1',
-            data: [25,24,25,25,23],
-            borderColor: ['rgba(255,206,86,0.2)'],
-            backgroundColor: ['rgba(232,99,132,1)',
-            'rgba(232,211,6,1)',
-            'rgba(54,162,235,1)',
-            'rgba(255,159,64,1)',
-            'rgba(153,102,255,1)' ],
+            data: [45,12,11,12,20],
+            borderColor: ['rgba(128,128,128,0.2)'],
+            backgroundColor: ['rgba(153,0,255,255)',
+            'rgba(255,153,0,255)',
+            'rgba(255,111,49,255)',
+            'rgba(255,0,0,255)',
+            'rgba(77,220,139,255)' ],
             pointBackgroundColor: 'rgba(255,206,86,0.2)',
             backgroundImage: 'lightblue url("https://www.chartjs.org/img/chartjs-logo.svgf") no-repeat fixed center'
         }

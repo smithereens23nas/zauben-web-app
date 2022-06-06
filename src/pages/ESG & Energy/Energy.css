@@ -15,11 +15,17 @@
 .savings-items {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.savings-num {
+  font-size: 32px;
 }
 
 .energy-savings-container {
   background-color: #1d1d1d;
   margin: 0 200px;
+  padding: 40px 0;
 }
 
 .energy-item {
@@ -27,23 +33,27 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  font-size: 20px;
+
 }
 
-.energy-title {
-  margin-left: 250px;
+.energy-title h3 {
+  margin-left: 220px;
   margin-bottom: 25px;
-  font-size: 20px;
+  font-size: 30px;
 }
+
 
 .est-savings-container {
   background-color: #1d1d1d;
   margin: 100px 200px;
+  padding: 40px 0;
 }
 
 .est-title {
-  margin-left: 250px;
+  margin-left: 220px;
   margin-bottom: 0;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .price-container {
