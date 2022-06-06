@@ -1,7 +1,8 @@
 import React from "react";
 import "./Wellness.css"
-import WellnessDateNav from "../../components/WellnessDateNav/WellnessDateNav"
+import EnergyDateNav from "../../components/EnergyDateNav/EnergyDateNav";
 import { Bar } from "react-chartjs-2";
+
 import { FiWind } from "react-icons/fi";
 
 function chartData() {
@@ -105,7 +106,7 @@ render(){
         <div className="energy-title-container">
           <h2>Wellness</h2>
         </div>
-        <WellnessDateNav />
+        <EnergyDateNav />
         <div className="energy-savings-container">
           <div className="energy-title">
             <h3>Health & Wellness</h3>

@@ -8,7 +8,7 @@ const EnergyDateNav = () => {
   const [activeNav, setActiveNav] = useState("#");
   return (
     <div className="btn-container">
-      <a href="/metricsDashboard" className="back-arrow">< IoIosArrowBack/></a>
+      <a href="/home" className="back-arrow">< IoIosArrowBack/></a>
       <div className="date-btns button-spacing">
         <button
           onClick={() => setActiveNav("#")}
