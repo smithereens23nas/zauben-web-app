@@ -15,7 +15,7 @@ const plants = () => {
             <h5 className="card-text-spacing">
               Model Z
             </h5>
-            <p>Lounge Area</p>
+            <p className='para-card-styling'>Lounge Area</p>
             <a className="link-decoration" href="/metricsDashboard
             ">
               View Performance
@@ -28,7 +28,7 @@ const plants = () => {
             <h5 className="card-text-spacing">
               Model Z
             </h5>
-            <p>Lounge Area</p>
+            <p className='para-card-styling'>Lounge Area</p>
             <a className="link-decoration" href="/metricsDashboard
             ">
               View Performance

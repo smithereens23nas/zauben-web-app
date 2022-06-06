@@ -13,7 +13,7 @@ const Home = () => {
           </div>
           <div className="p-style">
             <h5>Model Z</h5>
-            <p>Designed for
+            <p className="paragraph-styling">Designed for
 healthier living</p>
             <a className="link-decoration" href="/locations">View</a>
           </div>
@@ -23,7 +23,7 @@ healthier living</p>
           </div>
           <div className="p-style">
             <h5>Green Roof</h5>
-            <p>Browse our models</p>
+            <p className="paragraph-styling">Browse our models</p>
             <a className="link-decoration" href="#">Shop Now</a>
           </div>
         </div>
@@ -32,7 +32,7 @@ healthier living</p>
           </div>
           <div className="p-style">
             <h5>Exterior Green Walls</h5>
-            <p>This is paragraph 3.</p>
+            <p className="paragraph-styling">This is paragraph 3.</p>
             <a className="link-decoration" href="#">View Locations</a>
           </div>
         </div>

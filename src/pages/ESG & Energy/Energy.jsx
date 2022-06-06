@@ -1,8 +1,9 @@
 import React from "react";
 import "./Energy.css";
+import DoughnutChart from "./DonutGraph";
 import EnergyDateNav from "../../components/EnergyDateNav/EnergyDateNav";
 import EnergyBarChart from "./EnergyBarChart";
-import { Bar } from "react-chartjs-2";
+import { Bar, Doughnut } from "react-chartjs-2";
 import { GiCircleForest } from "react-icons/gi";
 import { FaSwimmer } from "react-icons/fa";
 
@@ -130,7 +131,9 @@ class Energy extends React.Component {
           <h2 className="energy-stats">Carbon Offset</h2>
           <div className="num-icon-container">
             <h1 className="num-styles">10</h1>
-            <div className="icon-item"><GiCircleForest /></div>
+            <div className="icon-item">
+              <GiCircleForest />
+            </div>
           </div>
           <h4 className="despcription-savings-item">Acres of forest worth</h4>
         </div>
@@ -141,15 +144,26 @@ class Energy extends React.Component {
           </div>
           <h4 className="despcription-savings-item">Native Plants</h4>
         </div>
-        
+
         <div className="energy-stats-section">
           <h2 className="energy-stats">Stormwater Retention</h2>
           <div className="num-icon-container">
             <h1 className="num-styles">281</h1>
-            <div className="icon-item swimming-icon"><FaSwimmer /></div>
+            <div className="icon-item swimming-icon">
+              <FaSwimmer />
+            </div>
           </div>
-          
+
           <h4 className="description-savings-item">Olympic Pools</h4>
+        </div>
+        <div className="energy-stats-section">
+          <h2 className="energy-stats">Urban Ecology</h2>
+          <div className="num-icon-container">
+            <p className="para-styles">Westbank Campus hosts about 100 different plant species, including 15 species of trees, 45 shrubs and 34 types of perennials.</p>
+            <div className="donut-legend">
+            <DoughnutChart />
+            </div>
+          </div>
         </div>
       </div>
     );
