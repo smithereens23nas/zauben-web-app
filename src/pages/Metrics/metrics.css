@@ -23,6 +23,14 @@
   /* outline: red solid 2px; */
 }
 
+.back-arrow {
+  margin-top: 50px;
+}
+
+.btn-container {
+  padding-top: 50px;
+}
+
 .container-progress-card .progress-card-item {
   position: relative;
   width: 400px;
@@ -103,12 +111,12 @@
 .text-style {
   position: relative;
   color: whitesmoke;
-  margin-top: 20px;
-  font-weight: 700;
-  font-size: 12px;
+  font-weight: 700; 
+  font-size: 17px;
   letter-spacing: 1px;
   text-transform: uppercase;
   transition: 0.5s;
+  padding-bottom: 35px;
   /* outline: red solid 3px; */
 }
 

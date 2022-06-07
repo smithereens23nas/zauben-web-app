@@ -84,17 +84,27 @@
   font-weight: 700;
   font-size: 30px;
   transition: 0.05s;
+
+}
+
+.ratings {
+  margin-bottom: -10px;
+  margin-top: 5px;
+  font-size: 12px;
+  color: white;
 }
 
 .progress-card:hover .percent .number h2 {
   color: #fff;
   font-size: 40px;
+
 }
 
 .percent .number h2 span {
   font-size: 20px;
   color: #777;
   transition: 0.5s;
+  
 }
 
 .icon-style {

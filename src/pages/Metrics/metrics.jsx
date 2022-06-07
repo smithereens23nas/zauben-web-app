@@ -35,6 +35,11 @@ function chartData() {
 }
 
 const options = {
+  plugins: {
+    legend: {
+       display: false
+    }
+},
   scaleShowGridLines: true,
   scaleGridLineColor: "rgba(0,0,0,.05)",
   scaleGridLineWidth: 1,
@@ -89,13 +94,12 @@ class Metrics extends React.Component {
     return (
       <div className="metric-show-page-bg">
         
-        <DateNav />
+        <DateNav className="DateNav-spacing" />
         <div className="container-progress-card">
           <div>
-            <h2>
-              <a className="text-style" href="/performance">
+            <h2 className="text-style">
                 Indoor Air Quality
-              </a>
+              
             </h2>
           </div>
           <p className="metrics-description">
@@ -109,7 +113,7 @@ class Metrics extends React.Component {
             data={this.state.data}
             options={options}
             width="500"
-            height="175"
+            height="150"
           />
         </div>
         <div className="download-data-container">

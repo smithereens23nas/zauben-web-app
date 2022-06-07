@@ -20,9 +20,9 @@ const Metrics_List_Menu = () => {
               </svg>
               <div className="number">
                 <h2>
-                  86<span>%</span>
+                  86<span></span>
                 </h2>
-
+                <h5 className="ratings">Good</h5>
                 <FiWind className="icon-style" />
               </div>
             </div>
