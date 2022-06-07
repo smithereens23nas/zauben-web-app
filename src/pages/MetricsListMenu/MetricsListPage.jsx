@@ -23,7 +23,7 @@ const Metrics_List_Menu = () => {
                   86<span></span>
                 </h2>
                 <h5 className="ratings">Good</h5>
-                <FiWind className="icon-style" />
+                <FiWind className="icon-style icon-spacing" />
               </div>
             </div>
             <div>
@@ -65,7 +65,7 @@ const Metrics_List_Menu = () => {
               </svg>
               <div className="number number-spacing">
                 <h2>
-                  80<span>%</span>
+                  80<span className="temp-degree-symbol">°</span>
                 </h2>
                 <FaTemperatureLow className="icon-style" />
               </div>
@@ -83,7 +83,7 @@ const Metrics_List_Menu = () => {
               </svg>
               <div className="number number-spacing">
                 <h2>
-                  77<span>%</span>
+                  77<span></span>
                 </h2>
                 <MdOutlineCompress className="icon-style" />
               </div>
@@ -123,7 +123,9 @@ const Metrics_List_Menu = () => {
                 <h2>
                   72<span>%</span>
                 </h2>
-                <FaWater className="icon-style" />
+                <h5 className="ratings">Est. Refill 30 Days</h5>
+
+                <FaWater className="icon-style icon-spacing" />
               </div>
             </div>
             <h2><a className="text" href="/performance">Water Tank</a></h2>

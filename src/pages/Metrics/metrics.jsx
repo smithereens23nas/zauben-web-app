@@ -10,10 +10,10 @@ import DateNav from "../../components/DateNav/DateNav";
 
 function chartData() {
   return {
-    labels: ["January", "February", "March", "April", "May", "June", "July"],
+    labels: ["12pm", "1pm", "2pm", "3pm", "4pm", "5pm", "6pm", "7pm", "8pm", "9pm", "10pm", "11pm", "12am", "1am", "2am", "3am", "4am", "5am", "6am", "7am", "8am", "9am", "10am", "11am"],
     datasets: [
       {
-        label: "My First dataset",
+        label: "  ",
         fill: true,
         backgroundColor: "rgb(15, 36, 52)",
         strokeColor: "rgba(220,220,220,1)",
@@ -23,7 +23,7 @@ function chartData() {
         pointStrokeColor: "#fff",
         pointHighlightFill: "#fff",
         pointHighlightStroke: "rgba(220,220,220,1)",
-        data: [65, 59, 80, 81, 56, 55, 40],
+        data: [65, 59, 80, 81, 56, 55, 40, 55, 59, 70, 66, 56, 65, 48, 56, 52, 49, 60, 54, 70, 77, 66, 55, 63],
         elements: {
           point: {
             radius: 0,
