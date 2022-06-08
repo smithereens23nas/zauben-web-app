@@ -102,26 +102,26 @@ function chartData() {
 
 render(){
   return (
-<div className="energy-page-bg">
-        <div className="energy-title-container">
+<div className="wellness-page-bg">
+        <div className="wellness-title-container">
           <h2>Wellness</h2>
         </div>
         <EnergyDateNav />
-        <div className="energy-savings-container">
-          <div className="energy-title">
+        <div className="wellness-savings-container">
+          <div className="wellness-title">
             <h3>Health & Wellness</h3>
           </div>
           <div className="savings-items">
-            <h4 className="energy-item">
+            <h4 className="wellness-item">
               <span className="savings-num">21%</span>Productivity
             </h4>
-            <h4 className="energy-item">
+            <h4 className="wellness-item">
               <span className="savings-num">18%</span>Creativity
             </h4>
-            <h4 className="energy-item">
+            <h4 className="wellness-item">
               <span className="savings-num">32%</span>Stress Levels
             </h4>
-            <h4 className="energy-item">
+            <h4 className="wellness-item">
               <span className="savings-num">38%</span>Mood Level
             </h4>
           </div>
@@ -140,7 +140,7 @@ render(){
         </div>
         <div className="urban-ecology-section">
           <div className="urban-ecology-text">
-            <h2 className="energy-stats">Indoor Air Quality</h2>
+            <h2 className="wellness-stats">Indoor Air Quality</h2>
             <div className="num-icon-container">
               <p className="para-styles">
                 Indoor air quality within and arouond buildings and structures. IAQ is known to affect the health, comfort, and well-being of building occupants.

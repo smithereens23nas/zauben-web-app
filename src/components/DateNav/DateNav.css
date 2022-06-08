@@ -5,7 +5,11 @@
   display: flex;
   justify-content: center;
   color: white;
+  padding-top: 50px;
 }
+
+
+
 
 .date-btns {
 
@@ -48,5 +52,7 @@
   left: 0;
   font-size: 40px;
   padding: 35px 0 0 50px;
+  margin-top: 50px;
+
   /* outline: red solid 10px; */
 }

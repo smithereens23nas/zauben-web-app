@@ -1,3 +1,11 @@
+.back-arrow-spacing {
+  margin-top: 25px;
+}
+
+.btn-container-styles {
+  padding-top: 200px;
+}
+
 .energy-page-bg {
   background-color: black;
   height: 100%;
@@ -6,10 +14,10 @@
 }
 
 .energy-title-container {
-  /* outline: red solid 1px; */
   display: flex;
   justify-content: center;
-  padding: 35px 0;
+  padding: 35px 0 0;
+  margin-bottom: 0;
 }
 
 .savings-items {
@@ -51,7 +59,7 @@ color: gainsboro;}
 
 .est-savings-container {
   background-color: #1d1d1d;
-  margin: 100px 200px;
+  margin: 25px 200px;
   padding: 40px 0;
 }
 
@@ -77,7 +85,7 @@ color: gainsboro;}
 
 .energy-stats-section {
   background-color: #1d1d1d;
-  margin: 100px 200px;
+  margin: 25px 200px;
   padding: 50px;
 }
 .num-icon-container {

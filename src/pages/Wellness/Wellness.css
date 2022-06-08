@@ -1,16 +1,16 @@
-.energy-page-bg {
+.wellness-page-bg {
     background-color: black;
     height: 100%;
     color: white;
     padding-bottom:100px ;
   }
   
-  .energy-title-container {
+  .wellness-title-container {
     /* outline: red solid 1px; */
     display: flex;
     justify-content: center;
-    padding: 35px 0;
-  }
+    padding: 35px 0 0;
+    margin-bottom: 0;  }
   
   .savings-items {
     display: grid;
@@ -22,13 +22,13 @@
     font-size: 32px;
   }
   
-  .energy-savings-container {
+  .wellness-savings-container {
     background-color: #1d1d1d;
     margin: 0 200px;
     padding: 40px 0;
   }
   
-  .energy-item {
+  .wellness-item {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,7 +37,7 @@
   
   }
   
-  .energy-title h3 {
+  .wellness-title h3 {
     margin-left: 220px;
     margin-bottom: 25px;
     font-size: 30px;

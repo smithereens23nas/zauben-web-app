@@ -7,8 +7,8 @@ import { IoIosArrowBack } from "react-icons/io";
 const EnergyDateNav = () => {
   const [activeNav, setActiveNav] = useState("#");
   return (
-    <div className="btn-container">
-      <a href="/home" className="back-arrow">< IoIosArrowBack/></a>
+    <div className="btn-container btn-container-spacing">
+      <a href="/home" className="back-arrow back-arrow-spacing">< IoIosArrowBack/></a>
       <div className="date-btns button-spacing">
         <button
           onClick={() => setActiveNav("#")}
