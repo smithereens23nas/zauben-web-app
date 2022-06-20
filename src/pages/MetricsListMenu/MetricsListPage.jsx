@@ -26,7 +26,7 @@ const Metrics_List_Menu = () => {
                 <FiWind className="icon-style icon-spacing" />
               </div>
             </div>
-            <div>
+            <div className="performance-title-container">
               <h2><a className="text" href="/performance">Indoor Air Quality</a></h2>
             </div>
           </div>
@@ -50,11 +50,13 @@ const Metrics_List_Menu = () => {
                 <BsMoisture className="icon-style" />
               </div>
             </div>
-            <div>
+            <div className="performance-title-container">
             <h2><a className="text" href="/performance">Moisture</a></h2>
             </div>
           </div>
-            <p className="para-description">Moisture in the plants.</p>
+            <p className="para-description">Indoor air quality within and around buildings and structures. IAQ
+            is known to affect the health, confort, and well-being of building
+            occupants.</p>
         </div>
         <div class="progress-card">
           <div class="box">
@@ -70,9 +72,12 @@ const Metrics_List_Menu = () => {
                 <FaTemperatureLow className="icon-style" />
               </div>
             </div>
+            <div className="performance-title-container">
             <h2><a className="text" href="/performance">Temperature</a></h2>
-          </div>
-          <p className="para-description">The temperature of the plant.</p>
+          </div></div>
+          <p className="para-description">Indoor air quality within and around buildings and structures. IAQ
+            is known to affect the health, confort, and well-being of building
+            occupants.</p>
         </div>
         <div class="progress-card">
           <div class="box">
@@ -88,9 +93,12 @@ const Metrics_List_Menu = () => {
                 <MdOutlineCompress className="icon-style" />
               </div>
             </div>
+            <div className="performance-title-container">
             <h2><a className="text" href="/performance">Pressure</a></h2>
-          </div>
-          <p className="para-description">The pressure of the plant.</p>
+          </div></div>
+          <p className="para-description">Indoor air quality within and around buildings and structures. IAQ
+            is known to affect the health, confort, and well-being of building
+            occupants.</p>
 
         </div>
         <div class="progress-card">
@@ -107,9 +115,12 @@ const Metrics_List_Menu = () => {
                 <WiHumidity className="icon-style" />
               </div>
             </div>
+            <div className="performance-title-container">
             <h2><a className="text" href="/performance">Humidity</a></h2>
-          </div>
-          <p className="para-description">The humidity of the plant.</p>
+          </div></div>
+          <p className="para-description">Indoor air quality within and around buildings and structures. IAQ
+            is known to affect the health, confort, and well-being of building
+            occupants.</p>
 
         </div>
         <div class="progress-card">
@@ -128,9 +139,12 @@ const Metrics_List_Menu = () => {
                 <FaWater className="icon-style icon-spacing" />
               </div>
             </div>
+            <div className="performance-title-container">
             <h2><a className="text" href="/performance">Water Tank</a></h2>
-          </div>
-          <p className="para-description">The water tank of the plant.</p>
+          </div></div>
+          <p className="para-description">Indoor air quality within and around buildings and structures. IAQ
+            is known to affect the health, confort, and well-being of building
+            occupants.`</p>
 
         </div>
       </div>
