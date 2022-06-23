@@ -20,8 +20,11 @@
   background-repeat: no-repeat;
   background-position: center;
   /* outline: blue solid 3px;  */
+} 
+html body {
+  background-color: #101010;
 }
-
+ 
 .bg-img-1 {
   background-image: url("../../../public/assets/Model-Z.jpg");
 }
@@ -44,10 +47,6 @@
   margin-bottom: 2rem;
   margin-top: 7rem;
 }
-
-html {
-  background-color: rgb(244, 242, 242);
-} 
 
 .paragraph-styling {
   background-color: whitesmoke;

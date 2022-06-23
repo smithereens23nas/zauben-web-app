@@ -6,6 +6,9 @@
   background: #101010;
 }
 
+.box-spacing {
+  margin-left: 20px;
+}
 
 
 .container-progress-cards {
@@ -131,7 +134,7 @@
   color: #777;
   margin-top: 50px;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 17px;
   letter-spacing: 1px;
   text-transform: uppercase;
   transition: 0.5s;
@@ -147,7 +150,10 @@
   width: 150px;
   height: 150px;
   z-index: 1000;
+
 }
+
+
 
 .performance-title-container {
   margin-top: 15px;
@@ -161,6 +167,7 @@
   stroke-width: 10;
   stroke-linecap: round;
   transform: translate(5px, 5px);
+  margin-left: 20px;
 }
 
 .temp-degree-symbol {
@@ -238,6 +245,7 @@
     margin-right: 30px;
     margin-left: 35px;
     margin-top: 25px;
+    text-align: left;
     justify-content: center;
     color: whitesmoke;
     background: linear-gradient(0deg, #1b1b1b, #222, #1b1b1b);
