@@ -15,15 +15,20 @@
 li {
   font-size: 1.5rem;
   line-height: 5rem;
+  color: white;
+}
+
+.list-item {
+  color: white;
 }
 
 .menu-spacing {
   margin-left: 1.5rem;
 }
 
-.icon {
-  /* outline: red solid 2px; */
-  /* margin-top: 3rem; */
+.icon-hover {
+color: white;
+
   font-size: 1.8rem;
 }
 
@@ -38,39 +43,7 @@ li {
   box-shadow: inset 200px 0 0 0 black;
   padding: 0 15px;
 } */
-test {
-  background: rgba(0, 0, 0, 0.3);
-  width: max-content;
-  display: block;
-  padding: 0.7rem 1.7rem;
-  z-index: 2;
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 2rem;
-  display: flex;
-  gap: 0.8rem;
-  border-radius: 3rem;
-  backdrop-filter: blur(15px);
-}
 
-test a {
-  background: transparent;
-  padding: 0.9rem;
-  border-radius: 50%;
-  display: flex;
-  color: orange;
-  font-size: 1.1rem;
-}
-
-test a:hover{
-  background: rgba(0, 0, 0, 0.3);
-}
-
-test a.active {
-  background: purple;
-  color: cornflowerblue;
-}
 
 
 

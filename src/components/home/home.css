@@ -21,21 +21,31 @@
   background-position: center;
   /* outline: blue solid 3px;  */
 } 
+
+.title-format {
+  height: 10%;
+}
  
 html body {
-  background-color: #101010;
+  background-color: black;
+  height: 100vh;
 }
 
 .bg-img-1 {
   background-image: url("../../../public/assets/Model-Z.jpg");
+  padding-bottom: 20px;
+
 }
 
 .bg-img-2 {
   background-image: url(../../../public/assets/Green-Roof-System.jpg);
+  padding-bottom: 20px;
+
 }
 
 .bg-img-3 {
   background-image: url(../../../public/assets/Living-Walls-Outdoor.jpg);
+  padding-bottom: 20px;
 }
 
 .link-decoration {
@@ -47,10 +57,12 @@ html body {
   font-size: 2.3rem;
   margin-bottom: 2rem;
   margin-top: 7rem;
+  color: white;
 }
 
 .paragraph-styling {
-  background-color: whitesmoke;
+  background-color: #101010;
+  color: white;
   width: 100%;
   font-size: 0.8rem;
   /* outline: red solid 1px; */
@@ -62,12 +74,12 @@ a {
 }
 
 .p-style {
-  background-color: whitesmoke;
+  background-color: #101010;
   width: 100%;
   display: flex;
   flex-direction: column;
   text-align: center;
-  height: 35%;
+  height: 42%;
   /* outline: red solid 2px; */
   justify-content: center;
   text-align: center;
@@ -105,7 +117,14 @@ a {
     font-size: 2.3rem;
     margin-bottom: 2rem;
     margin-top: 7rem;
-  }
+}
+}
+
+.product-title {
+  color: white;
+  font-size: 15px;
+  margin-bottom: 10px;
+  
 }
 
 html {

@@ -47,7 +47,8 @@
   }
   
   para-card-styling {
-    background-color: whitesmoke;
+    background-color: #101010;
+    color: white;
     width: 100%;
     font-size: 0.8rem;
     /* outline: red solid 1px; */
@@ -59,7 +60,7 @@
   }
   
   .p-style {
-    background-color: whitesmoke;
+    background-color: #101010;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -68,6 +69,10 @@
     /* outline: red solid 2px; */
     justify-content: center;
     text-align: center;
+  }
+
+  .title-format {
+    height: 29%;
   }
   
   .container-locations {
@@ -97,11 +102,12 @@
       justify-content: center;
     }
   
-    h3 {
+    h5 {
       margin-left: 2rem;
       font-size: 2.3rem;
       margin-bottom: 2rem;
       margin-top: 7rem;
+      color: white;
     }
   }
   

@@ -12,7 +12,7 @@ const Home = () => {
           <div className="card-img bg-img-1">
           </div>
           <div className="p-style">
-            <h5>Model Z</h5>
+            <h5 className="product-title">Model Z</h5>
             <p className="paragraph-styling">Designed for
 healthier living</p>
             <a className="link-decoration" href="/locations">View</a>
@@ -22,18 +22,17 @@ healthier living</p>
           <div className="card-img bg-img-2">
           </div>
           <div className="p-style">
-            <h5>Green Roof</h5>
-            <p className="paragraph-styling">Browse our models</p>
+            <h5 className="product-title">Green Roof</h5>
+            <p className="paragraph-styling">Build and design sustainably</p>
             <a className="link-decoration" href="#">Shop Now</a>
           </div>
         </div>
         <div className="card">
           <div className="card-img bg-img-3">
           </div>
-          <div className="p-style">
-            <h5>Exterior Green Walls</h5>
-            <p className="paragraph-styling">This is paragraph 3.</p>
-            <a className="link-decoration" href="#">View Locations</a>
+          <div className="p-style title-format">
+            <h5 className="product-title">Exterior Green Walls</h5>
+            <p className="paragraph-styling">Reconnecting nature with the built environment</p>
           </div>
         </div>
       </div>
