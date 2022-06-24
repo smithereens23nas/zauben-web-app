@@ -9,31 +9,39 @@ const Home = () => {
       <h3 className="dashboard-title">Dashboard</h3>
       <div className="container">
         <div className="card">
-          <div className="card-img bg-img-1">
-          </div>
+          <a href="/locations">
+            <div className="card-img bg-img-1"></div>
+          </a>
           <div className="p-style">
-            <h5 className="product-title">Model Z</h5>
-            <p className="paragraph-styling">Designed for
-healthier living</p>
-            <a className="link-decoration" href="/locations">View</a>
+            <a href="/locations">
+              <h5 className="product-title">Model Z</h5>
+              <p className="paragraph-styling">Designed for healthier living</p>
+            </a>
           </div>
         </div>
         <div className="card">
-          <div className="card-img bg-img-2">
-          </div>
-          <div className="p-style">
-            <h5 className="product-title">Green Roof</h5>
-            <p className="paragraph-styling">Build and design sustainably</p>
-            <a className="link-decoration" href="#">Shop Now</a>
-          </div>
+          <a href="/metricsdashboard">
+            <div className="card-img bg-img-2"></div>
+          </a>
+          <a href="/metricsdashboard">
+            <div className="p-style">
+              <h5 className="product-title">Green Roof</h5>
+              <p className="paragraph-styling">Build and design sustainably</p>
+            </div>
+          </a>
         </div>
         <div className="card">
-          <div className="card-img bg-img-3">
-          </div>
-          <div className="p-style title-format">
-            <h5 className="product-title">Exterior Green Walls</h5>
-            <p className="paragraph-styling">Reconnecting nature with the built environment</p>
-          </div>
+          <a href="/metricsdashboard">
+            <div className="card-img bg-img-3"></div>
+          </a>
+          <a href="/metricsdashboard">
+            <div className="p-style title-format">
+              <h5 className="product-title">Exterior Green Walls</h5>
+              <p className="paragraph-styling">
+                Reconnecting nature with the built environment
+              </p>
+            </div>
+          </a>
         </div>
       </div>
     </div>
