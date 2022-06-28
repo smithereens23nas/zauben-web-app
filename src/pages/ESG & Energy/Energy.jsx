@@ -122,8 +122,8 @@ class Energy extends React.Component {
             <Bar
               data={this.state.data}
               options={options}
-              width="500"
-              height="175"
+              width="0"
+              height="0"
             />
           </div>
           <div className="price-container">
