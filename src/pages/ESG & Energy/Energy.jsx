@@ -117,7 +117,9 @@ class Energy extends React.Component {
           </div>
         </div>
         <div className="est-savings-container">
-          <h3 className="est-title">Estimated Savings</h3>
+          <div className="est-title">
+          <h3 >Estimated Savings</h3>
+          </div>
           <div style={styles.graphContainer}>
             <Bar
               data={this.state.data}

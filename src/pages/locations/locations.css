@@ -9,6 +9,9 @@
   border: 2px solid #d0d1d2;
   border-radius: 25px;
   overflow: hidden;
+  height:  475px;
+  width: 425px;
+
 }
 
 .card-img {
@@ -45,10 +48,6 @@
   color: white;
 }
 
-html {
-  background-color: rgb(244, 242, 242);
-}
-
 paragraph-card-styling {
   background-color: whitesmoke;
   width: 100%;
@@ -58,29 +57,30 @@ paragraph-card-styling {
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .p-style {
-  background-color: whitesmoke;
+  background-color: #101010;
+  color: white;
   width: 100%;
   display: flex;
   flex-direction: column;
   text-align: center;
-  height: 35%;
+  height: 42%;
   /* outline: red solid 2px; */
   justify-content: center;
   text-align: center;
 }
 
-.container-locations {
-  /* outline: red solid 2px; */
+.container {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* outline: red solid 3px; */
-  height: 5250px;
+  height: 525px;
   width: 45rem;
-  margin-left: 30rem;
+  margin-left: 35rem;
   grid-gap: 30px;
+  /* outline: red solid 2px; */
 }
 
 /* ======================== MEDIA QUERIES (MEDIUM DEVICES) ======================== */

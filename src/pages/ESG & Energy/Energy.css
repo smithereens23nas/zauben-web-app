@@ -60,14 +60,16 @@ color: gainsboro;}
 .est-savings-container {
   background-color: #1d1d1d;
   margin: 25px 200px;
-  padding: 100px;
+  padding: 150px;
 }
 
+
 .est-title {
-  margin-left: 220px;
+  margin-left: 75px;
   margin-bottom: 0;
   font-size: 30px;
 }
+
 
 .price-container {
   display: flex;

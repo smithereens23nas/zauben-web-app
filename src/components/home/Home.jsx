@@ -8,7 +8,7 @@ const Home = () => {
       <SideMenu />
       <h3 className="dashboard-title">Dashboard</h3>
       <div className="container">
-        <div className="card">
+        <div className="card-container">
           <a href="/locations">
             <div className="card-img bg-img-1"></div>
           </a>
@@ -19,7 +19,7 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <div className="card">
+        <div className="card-container">
           <a href="/metricsdashboard">
             <div className="card-img bg-img-2"></div>
           </a>
@@ -30,7 +30,7 @@ const Home = () => {
             </div>
           </a>
         </div>
-        <div className="card">
+        <div className="card-container">
           <a href="/metricsdashboard">
             <div className="card-img bg-img-3"></div>
           </a>

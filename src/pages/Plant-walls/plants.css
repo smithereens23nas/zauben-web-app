@@ -5,14 +5,17 @@
   }
   
   .card {
-      /* outline: purple solid 10px; */
-      border: 2px solid #d0d1d2;
-      border-radius: 25px;
-      overflow: hidden;
-  }
+    /* outline: purple solid 10px; */
+    border: 2px solid #d0d1d2;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 275px;
+    width: 425px;
+
+}
   
   .card-img {
-    height: 10rem;
+    height: 10.5rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -56,16 +59,17 @@
   
   a {
     text-decoration: none;
-    color: black;
+    color: white;
   }
   
   .p-style {
     background-color: #101010;
+    color: white;
     width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 35%;
+    height: 42%;
     /* outline: red solid 2px; */
     justify-content: center;
     text-align: center;

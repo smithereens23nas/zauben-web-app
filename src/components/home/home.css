@@ -4,18 +4,18 @@
   border: 0px;
 }
 
-.card {
+.card-container {
     /* outline: purple solid 10px; */
     border: 2px solid #d0d1d2;
     border-radius: 25px;
     overflow: hidden;
-    height: 275px;
+    height: 300px;
     width: 425px;
 
 }
 
 .card-img {
-  height: 10rem;
+  height: 10.5rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
