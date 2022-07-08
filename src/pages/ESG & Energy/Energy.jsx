@@ -11,7 +11,7 @@ function chartData() {
   return {
     labels: ["Energy Savings", "Winter Savings", "AC Savings", "Gas"],
     datasets: [
-      {
+      { 
         
         fill: true,
         backgroundColor: "rgba(77,220,139,255)",
@@ -63,6 +63,7 @@ const options = {
     y: {
       ticks: {
         color: "white",
+        fontSize: "32px",
         beginAtZero: true,
         // Include a dollar sign in the ticks
         callback: function (value, index, values) {
@@ -77,6 +78,7 @@ const options = {
 
 const styles = {
   graphContainer: {
+    fontSize: "30px",
     padding: "25px",
     margin: "50px 100px 15px 100px",
   },
@@ -171,7 +173,7 @@ class Energy extends React.Component {
           <div className="urban-ecology-text">
             <h2 className="energy-stats">Urban Ecology</h2>
             <div className="num-icon-container">
-              <p className="para-styles">
+              <p className="para-styles-urban">
                 Westbank Campus hosts about 100 different plant species,
                 including 15 species of trees, 45 shrubs and 34 types of
                 perennials.

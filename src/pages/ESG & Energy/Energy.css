@@ -134,13 +134,16 @@ color: gainsboro;}
 width: 50%;
 }
 
-.para-styles {
+.para-styles-urban {
   font-size: 20px;
+  width: 50%;
+  /* outline: red solid 2px; */
 }
 
 .donut-legend {
   color: white;
   margin-left: 400px;
   margin-top: -100px;
+
   /* outline: 2px solid red; */
 }

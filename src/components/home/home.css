@@ -6,7 +6,7 @@
 
 .card-container {
     /* outline: purple solid 10px; */
-    border: 2px solid #d0d1d2;
+    /* border: 2px solid #d0d1d2; */
     border-radius: 25px;
     overflow: hidden;
     height: 300px;
@@ -59,8 +59,8 @@ html body {
 }
 
 .paragraph-styling {
-  background-color: #101010;
-  color: white;
+  background-color: white;
+  color: black;
   width: 100%;
   font-size: 0.8rem;
   /* outline: red solid 1px; */
@@ -72,7 +72,8 @@ a {
 }
 
 .p-style {
-  background-color: #101010;
+  background-color: white;
+  color: black;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -119,7 +120,7 @@ a {
 }
 
 .product-title {
-  color: white;
+  color: black;
   font-size: 15px;
   margin-bottom: 10px;
   
