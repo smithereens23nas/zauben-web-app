@@ -25,7 +25,7 @@ function chartData() {
         elements: {
           point: {
             radius: 0,
-          },
+          }, 
         },
       },
     ],
