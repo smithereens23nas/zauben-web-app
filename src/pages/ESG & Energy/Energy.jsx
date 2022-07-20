@@ -12,7 +12,6 @@ function chartData() {
     labels: ["Energy Savings", "Winter Savings", "AC Savings", "Gas"],
     datasets: [
       { 
-         
         fill: true,
         backgroundColor: "rgba(77,220,139,255)",
         hoverBackgroundColor: "rgba(77,220,139,255)",
